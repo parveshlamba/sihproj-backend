@@ -1,3 +1,10 @@
 node_modules/
 .env
-frontend/
+
+# Flutter
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/

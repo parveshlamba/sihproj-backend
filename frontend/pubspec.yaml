@@ -1,0 +1,29 @@
+name: legal_metrology_app
+
+description: Compliance checker for packaged commodities under Legal Metrology (Packaged Commodities) Rules, 2011.
+
+publish_to: 'none'
+
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  google_mlkit_text_recognition: ^0.13.0
+  pdf: ^3.13.0
+  printing: ^5.15.0
+  http: ^1.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
